@@ -13,7 +13,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container2{
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
 
+.box{
+  float: left;
+  width: 50%;
+}
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
 article,
 aside,
 details,
@@ -80,6 +97,11 @@ mark {
   background-color: #ff0;
   color: #000;
 }
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
 small {
   font-size: 80%;
 }
@@ -234,6 +256,7 @@ img {
 }
 h1 {
   margin-left: 0;
+  text-align: center;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -251,6 +274,7 @@ h1 {
 }
 h2 {
   margin-left: 0;
+  text-align: center;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -268,6 +292,7 @@ h2 {
 }
 h3 {
   margin-left: 0;
+  text-align: center;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -480,11 +505,7 @@ noscript {
   text-align: center;
   color: black;
 }
-.top-left {
-  position: absolute;
-  top: 200px;
-  left: 250px;
-}
+
 iframe {
   margin-left: 0;
   margin-right: 0;
